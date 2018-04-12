@@ -1,6 +1,6 @@
 # Answers for Andromeda
 
-###1. What protocol was used for e-mail communication between the systems of interest?
+### 1. What protocol was used for e-mail communication between the systems of interest?
 SMTP
 
 ### 2. What was the password for the FTP User?
