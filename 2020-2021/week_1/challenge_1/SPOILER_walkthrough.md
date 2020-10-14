@@ -6,6 +6,18 @@ Archive:  darkest-secret.zip
    skipping: my_big_secret.txt       incorrect password
 ```
 
+# Method 1 - fcrackzip
+
+Let's try to crack the password using fcrackzip!
+
+```
+ # fcrackzip -u -D -p /opt/rockyou.txt darkest-secret.zip
+
+PASSWORD FOUND!!!!: pw == ############  
+```
+
+# Method 2 - John
+
 It's secured with a password, so we'll need to get the hashed password in order to crack it
 ```
  # zip2john darkest-secret.zip > darkest-secret.zip.hash
@@ -21,3 +33,4 @@ Press 'q' or Ctrl-C to abort, almost any other key for status
 1g 0:00:00:00 DONE
 Session completed
 ```
+
