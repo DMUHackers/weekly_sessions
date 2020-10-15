@@ -44,5 +44,5 @@ Built-in charsets
 
 Let's combine our findings and crack the hash. Note that we know the password is in the format U2#H7#X#, we use our custom charset **?1** as defined earlier in place of any characters that we don't know
 ```
- # hashcat -m 2500 maxnet.hccapx -a 3 -1 ?l?u?d U2?1H7?1X?1
+ # hashcat -m 2500 maxnet.hccapx -a 3 -1 '?l?u?d' 'U2?1H7?1X?1'
 ```
