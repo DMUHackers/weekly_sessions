@@ -43,7 +43,7 @@ Our new wordlist is a step in the right direction, but it's unlikely his passwor
 [+] Now load your pistolero with wordlist.txt.cupp.txt and shoot! Good luck!
 ```
 
-Now we have the hash we need and a dictionary attack it with, let's put it all together and crack it with (John)[https://github.com/openwall/john], remembering to specify that we are using NTLM hashes with the `--format=NT` flag
+Now we have the hash we need and a dictionary attack it with, let's put it all together and crack it with [John](https://github.com/openwall/john), remembering to specify that we are using NTLM hashes with the `--format=NT` flag
 ```
  # john --format=NT --wordlist=wordlist.txt.cupp.txt hash2.txt 
 Using default input encoding: UTF-8
