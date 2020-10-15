@@ -24,7 +24,8 @@ It's secured with a password, so we'll need to get the hashed password in order 
 ```
 
 Now let's crack that hash with [John the Ripper](https://github.com/openwall/john), providing [rockyou.txt](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt) as a dictionary
-``` # john --wordlist=/opt/rockyou.txt darkest-secret.zip.hash 
+```
+# john --wordlist=/opt/rockyou.txt darkest-secret.zip.hash 
 Using default input encoding: UTF-8
 Loaded 1 password hash (PKZIP [32/64])
 Will run 4 OpenMP threads
