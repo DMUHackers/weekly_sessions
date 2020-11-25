@@ -4,7 +4,7 @@ To do this we'll be using your Kali VMs which should already have Burp Suite ins
 
 Follow through steps 1 & 2 to get setup for the challenges:
 
-1. [How to deploy Juice Shop](https://github.com/DMUHackers/weekly_sessions/tree/master/2020-2021/week_6/deploy_juice_shopv)
+1. [How to deploy Juice Shop](https://github.com/DMUHackers/weekly_sessions/tree/master/2020-2021/week_6/deploy_juice_shop)
 2. [How to configure Burp](https://github.com/DMUHackers/weekly_sessions/tree/master/2020-2021/week_6/burp_configuration)
 
 Have a go at the challenges below! If you get stuck or just don't know how, try a bit of google-fu, or look through our handy spoilers for a walkthrough:
