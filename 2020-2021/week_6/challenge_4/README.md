@@ -1,4 +1,4 @@
-Challenge 4 - Register a new admin user for the shop
+# Challenge 4 - Register a new admin user for the shop
 
 Why do I have to register as a member? Let's create a new admin user!
 
