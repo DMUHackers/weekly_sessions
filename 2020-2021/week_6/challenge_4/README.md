@@ -33,7 +33,7 @@ Why do I have to register as a member? Let's create a new admin user!
 	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_6/challenge_4/ch4shots/3.png">
   </p>
   
-  Click 'Send' and see what response you get. It seems we're being assinged the role: 'customer'.
+  Click 'Send' and see what response you get. It seems we're being assigned the role: 'customer'.
 
   <p align="center">
 	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_6/challenge_4/ch4shots/4.png">
