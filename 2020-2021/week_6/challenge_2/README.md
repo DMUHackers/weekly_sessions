@@ -34,7 +34,7 @@ What a horrible website, let's destroy their hopes and dreams by leaving a 0-sta
 	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_6/challenge_2/ch2shots/3.png">
   </p>
   
-  Your should now see the intercepted request in Burp (if you don't forward captured requests until you do).
+  Your should now see the intercepted request in Burp (if you don't, forward captured requests until you do).
 
   <p align="center">
 	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_6/challenge_2/ch2shots/4.png">
