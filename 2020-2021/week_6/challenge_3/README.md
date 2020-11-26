@@ -45,7 +45,7 @@ The prices on this website are extortionate! I wonder if we can get a discount f
 	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_6/challenge_3/ch3shots/5.png">
   </p>
   
-  Go to the payloads tab and clear the highlighted section. We want to specifically target 'query'.
+  Go to the payloads tab, select all text and click 'clear'. This will remove the auto-selected targets. We want to specifically target 'query'.
  
   <p align="center">
 	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_6/challenge_3/ch3shots/6.png">
