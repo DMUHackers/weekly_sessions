@@ -2,6 +2,8 @@
 In this weeks session we will be looking at hacking web applications and using Burp Suite. 
 To do this we'll be using your Kali VMs which should already have Burp Suite installed by default, and our web application target will be OWASP's Juice Shop.
 
+This slides for this week can be found [here](https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_6/Juice-Shop-%26-Burp.pdf).
+
 Follow through steps 1 & 2 to get setup for the challenges:
 
 1. [How to deploy Juice Shop](https://github.com/DMUHackers/weekly_sessions/tree/master/2020-2021/week_6/deploy_juice_shop)
