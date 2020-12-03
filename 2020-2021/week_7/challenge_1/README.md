@@ -52,19 +52,18 @@ Try and use SQLi to login as the admin on your juice shop app!
   </p>
 
   Success! We logged in as admin!
-   
+
+
+
+  This can be tested on the actual login page without using burp as well:
+
+
   <p align="center">
 	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_1/ch1shots/6.png">
-  </p>
-  
-  This can be tested on the actual login page without using burp as well:
+  </p> 
 
   <p align="center">
 	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_1/ch1shots/7.png">
-  </p>
-  
-  <p align="center">
-	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_1/ch1shots/8.png">
   </p>
 
 </details>
