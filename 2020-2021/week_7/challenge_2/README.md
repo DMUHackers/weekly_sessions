@@ -1,4 +1,4 @@
-# Challenge 1 - Admin Login
+# Challenge 2 - You're Dumped.
 
 Try and use SQLi to dump all user credentials!
 
@@ -27,19 +27,22 @@ Try and use SQLi to dump all user credentials!
 	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/2.png">
   </p>
   
-  Once the request has been captured in burp, right click and `Send to Repeater`.
   
+ If we send the request with a `'`, we get success. Let's try and prompt an error message.
+ 
   <p align="center">
 	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/3.png">
   </p>
   
-  If we send the request with a `'`, we get success. Let's try a prompt an error message.
+  
+ By putting `aaa'` as our parameter, we got an error. Notice the `SQLITE_ERROR`, this tells us that the backend database is SQLITE, this is useful we now know the specific syntax required for injection (using a bit of Google-Fu). 
+  
   
   <p align="center">
 	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/4.png">
   </p>
   
-  By putting `aaa'` as our parameter, we got an error. Notice the `SQLITE_ERROR`, this tells us that the backend database is SQLITE, this is useful we now know the specific syntax required for injection (using a bit of Google-Fu). 
+
   
   The query is: `SELECT * FROM Products WHERE ((name LIKE '%<input>%' OR description LIKE '%<input>%') AND deletedAt IS NULL) ORDER BY name`.
   
@@ -49,46 +52,57 @@ Try and use SQLi to dump all user credentials!
   
   So the new query should look like: `SELECT * FROM Products WHERE ((name LIKE '%aaa')) union select 1 -- ` ~~%' OR description LIKE '%<input>%') AND deletedAt IS NULL) ORDER BY name~~
 
-  Let's try it. We also need to ensure we are url encoding our text as it will be sent within the url of the request, not the data like last time.
+  Let's try it. We also need to ensure we are url encoding our text as it will be sent within the url of the request, not in the data like last time. To do this, highlight and right click the text. Do `Convert Selection` > `URL` > `URL-encode key characters`
 
   <p align="center">
 	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/5.png">
   </p>
 
-  Our first request injection request should look like this. Once it's sent, we receive a different error.
-  
   <p align="center">
 	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/6.png">
   </p>
-  
-  The error states `SELECTs to the left and right of UNION do not have the same number of result columns`. This means that there are either more or less than 1 columns.
-  
-  Lets try 2 instead!
-  
-  <p align="center">
+
+
+  Our first request injection should look like this. Once it's sent, we receive a different error.
+
+<p align="center">
 	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/7.png">
   </p>
-    
-  Nope, same message.
-  
-  Let's try 3!
   
   <p align="center">
 	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/8.png">
   </p>
+
+  The error states `SELECTs to the left and right of UNION do not have the same number of result columns`. This means that there are either more or less than 1 column(s).
+
+
+  Lets try 2 instead!
+
+  <p align="center">
+	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/9.png">
+  </p>  
+    
+  Nope, same message.
+  
+  Let's try 3!
+    
+  <p align="center">
+	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/10.png">
+  </p>
+
   
   Nope...
   
   Let's continue until we no longer get that message.
   
   <p align="center">
-	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/9.png">
+	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/11.png">
   </p>
   
   Eventually we see that there are a total of 9 columns being displayed by the search function.
-  
+
   <p align="center">
-	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/10.png">
+	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/12.png">
   </p>
 
   Now that we know the amount of columns, we can being enumerating and dumping data from the database. As we know the backend database is using SQLITE, we can tailor our injection to that format.
@@ -102,13 +116,13 @@ Try and use SQLi to dump all user credentials!
     aaa'))+union+select+1,2,3,4,5,6,7,8,tbl_name+from+sqlite_master+--+
     
   <p align="center">
-	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/11.png">
+	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/13.png">
   </p>
 
   When we send this query, column 9 should include the table names. 
   
   <p align="center">
-	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/12.png">
+	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/14.png">
   </p>
   
   Now we know the table names, let's try and get the column names from the table 'Users'. Our modified query will look like this:
@@ -120,13 +134,13 @@ Try and use SQLi to dump all user credentials!
     aaa'))+union+select+1,2,3,4,5,6,7,8,sql+from+sqlite_master+where+tbl_name='Users'+--+
     
   <p align="center">
-	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/13.png">
+	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/15.png">
   </p>
   
   Let's send the request and see what we get.
     
   <p align="center">
-	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/14.png">
+	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/16.png">
   </p>
   
   Now we know the column names, we can get all the data held within this table. Let's grab the `id`, `username`, `email`, `password`, `role`, and `totpSecret`.
@@ -140,14 +154,14 @@ Try and use SQLi to dump all user credentials!
     aaa'))+union+select+id,username,email,password,role,totpSecret,7,8,9+from+Users+--+
     
   <p align="center">
-	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/15.png">
+	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/17.png">
   </p>
   
   Let's send our request!
   
     
   <p align="center">
-	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/16.png">
+	<img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/challenge_2/ch2shots/18.png">
   </p>
 
   Success! We have dumped the table holding the user credentials.
