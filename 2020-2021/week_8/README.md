@@ -4,8 +4,8 @@ In this weeks session a PhD student will be giving a talk on re-identification a
 
 To take part in this session you will need to <ins>download the vm from one of the links below</ins>
 
-https://bit.ly/3700iAI
+(Link 1)[https://drive.google.com/file/d/1O7jjzcXoGlPJppbdxdePLM0emkIOq3Qe/view]
 
-https://bit.ly/37Nrd1J
+(Link 2)[https://drive.google.com/file/d/1ee2MpEjhJ5EIDYvVFjKDszD35i7JfC8Z/view]
 
 If the download is extremely slow, please try the other link.
