@@ -10,6 +10,6 @@ wget -O dmuhackers.ovpn "https://cdn.discordapp.com/attachments/7377382458190725
 
 #### Box 1 - Windows (Very Easy) - 10.8.0.6
 
-#### Box 2 - Linux (Easy) - ###.###.###.###
+#### Box 2 - Linux (Easy) - 10.8.0.14
 
 #### Box 3 - Linux (Medium) - 10.8.0.30
