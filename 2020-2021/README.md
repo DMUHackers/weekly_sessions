@@ -8,4 +8,4 @@
 - Week 6 - [Burp Suite and Web Apps](https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_6/README.md)
 - Week 7 - [Juice Shop and SQL](https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_7/README.md)
 - Week 8 - [Guest Speaker - Re-identification Attacks](https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_8/README.md)
-- Week 9 - [Remote Command Shells](https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_9/README.md)
+- Week 9 - [Footholds](https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_9/README.md)
