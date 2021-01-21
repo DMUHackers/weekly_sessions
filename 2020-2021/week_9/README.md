@@ -8,8 +8,8 @@ wget -O dmuhackers.ovpn "https://cdn.discordapp.com/attachments/7377382458190725
 ## Boxes
 ### PLEASE DO NOT TARGET ANY OTHER IPS
 
-Box 1 - Windows (Very Easy) - 10.8.0.6
+#### Box 1 - Windows (Very Easy) - 10.8.0.6
 
-Box 2 - Linux (Easy) - ###.###.###.###
+#### Box 2 - Linux (Easy) - ###.###.###.###
 
-Box 3 - Linux (Medium) - 10.8.0.30
+#### Box 3 - Linux (Medium) - 10.8.0.30
