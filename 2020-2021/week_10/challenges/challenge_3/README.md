@@ -10,12 +10,15 @@ File: [sus_mixtape.flac](https://github.com/DMUHackers/weekly_sessions/raw/maste
   The data in this file is hidden using a tool called [DeepSound](https://www.darknet.org.uk/2019/03/deepsound-audio-steganography-tool/)
 
   With DeepSound open, hit Open carrier files and browse to the downloaded mixtape
+  
   ![](https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_10/challenges/challenge_3/screenshots/1.png?raw=true)
 
   DeepSound shows us that a secret file is hidden in the carrier audio file
+
   ![](https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_10/challenges/challenge_3/screenshots/2.png?raw=true)
 
   Hit *Extract secret files* to reveal the impostor's plans
+
   ![](https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_10/challenges/challenge_3/screenshots/3.png?raw=true)
 
 </details>
