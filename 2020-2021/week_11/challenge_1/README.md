@@ -1,7 +1,7 @@
 # Challenge 1 - Linux box
 
 
-Box IP: 10.8.0.38
+Box IP: 10.8.0.30
 
 <details>
   <summary>Click here for a walkthrough</summary>
