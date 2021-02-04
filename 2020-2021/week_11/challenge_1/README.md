@@ -3,4 +3,37 @@
 
 Box IP:
 
-A walkthrough is available [here](https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_11/challenge_1/ch1_walkthrough.md) for anybody that is stuck
+<details>
+  <summary>Click here for a walkthrough</summary>
+  
+  Once you have gained the foothold with SSH, you can view date_checker.c with the below command. Here we can see the program returns a date in the command line.
+  
+  <p align="center">
+	      <img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_11/challenge_1/ch1shots/catdatechecker.png">
+  </p>
+  
+  
+  
+  <p align="center">
+	      <img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_11/challenge_1/ch1shots/echobinbash.png">
+  </p>
+
+  Change the permissions of the file to be executable
+
+  <p align="center">
+	      <img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_11/challenge_1/ch1shots/chmodtmpdate.png">
+  </p>
+  
+  
+  
+  <p align="center">
+	      <img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_11/challenge_1/ch1shots/exportpath.png">
+  </p>
+  
+  Run the program as so, and check your success with 'id'
+  
+  <p align="center">
+	      <img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_11/challenge_1/ch1shots/rootgained.png">
+  </p>
+
+</details>
