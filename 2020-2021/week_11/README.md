@@ -7,6 +7,14 @@ We also have some challenges below to try out privilege escalation on some boxes
 To begin any of these given you must be able to remotely access each box using a foothold. 
 This will be done through SSH and is not part of the challenge this week, so we will give you the credentials...
 
+### Step 1: VPN connection
+
+Connect to the VPN to begin accessing this week's challenges using the following command:
+```
+wget https://cdn.discordapp.com/attachments/737738245819072543/806945624196251708/dmuhackers2.ovpn && sudo openvpn dmuhackers2.ovpn
+```
+
+### Step 2: Accessing the challenges
 
 From a terminal on your own PC or VM, use ``` ssh jeremy@<box_IP_address> ```. Each challenge specific box IP address can be found at the start of each challenge page.
 
