@@ -12,7 +12,7 @@ Box IP: 10.8.0.22
 	      <img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_11/challenge_1/ch1shots/catdatechecker.png">
   </p>
   
-  
+  Echo a bash shell to /tmp/date. You can see 'date' is used in the program above.
   
   <p align="center">
 	      <img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_11/challenge_1/ch1shots/echobinbash.png">
