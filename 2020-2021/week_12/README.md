@@ -1,5 +1,5 @@
 
-# Week 12 - Juice Shop and XXS
+# Week 12 - Juice Shop and XSS
 
 In this week’s session we will be looking at cross-site scripting using juice shop.
 
