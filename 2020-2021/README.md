@@ -10,3 +10,4 @@
 - Week 8 - [Guest Speaker - Re-identification Attacks](https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_8/README.md)
 - Week 9 - [Footholds](https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_9/README.md)
 - Week 10 - [Steganography](https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_10/README.md)
+- Week 11 - [Privilege Escalation](https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_11/README.md)
