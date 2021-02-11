@@ -7,7 +7,7 @@ Learn more about the Document Object Model [here](https://www.w3.org/TR/WD-DOM/i
 <details>
   <summary>Click here for a walkthrough</summary>
   
-  First navigate to the home page where there's a searh bar.
+  First navigate to the home page where there's a search bar.
   
   <p align="center">
 	      <img src="https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_12/challenge_1/ch1shots/homescreen.PNG">
