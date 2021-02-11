@@ -2,10 +2,14 @@
 # Week 12 - Juice Shop and XSS
 
 In this week’s session we will be looking at cross-site scripting using juice shop.
+You'll need to host the vulnerable Juice Shop site to try the XSS attack challenges against.
+If you haven’t got Juice Shop set up from our previous sessions, use the following guide we made.
 
-If you haven’t gotten Juice Shop set up from our previous sessions, use the follow through step below. 
+ - [How to deploy Juice Shop](https://github.com/DMUHackers/weekly_sessions/tree/master/2020-2021/week_6/deploy_juice_shop)
+ 
+If you want to see the scoreboard to check your progress on the site, follow our walkthrough challenge here.
 
-1. [How to deploy Juice Shop](https://github.com/DMUHackers/weekly_sessions/tree/master/2020-2021/week_6/deploy_juice_shop)
+ - [Scoreboard challenge](https://github.com/DMUHackers/weekly_sessions/tree/master/2020-2021/week_6/challenge_1)
 
 ### Challenges
 
