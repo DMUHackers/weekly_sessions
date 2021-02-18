@@ -12,3 +12,4 @@
 - Week 10 - [Steganography](https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_10/README.md)
 - Week 11 - [Privilege Escalation](https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_11/README.md)
 - Week 12 - [Juice Shop Part 2 - XSS](https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_12/README.md)
+- Week 13 - [Phishing](https://github.com/DMUHackers/weekly_sessions/blob/master/2020-2021/week_13/README.md)
