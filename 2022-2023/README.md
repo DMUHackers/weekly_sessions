@@ -9,4 +9,5 @@ Week 7 - Phising - December 1st \
 Week 8 - Advent of Cyber - December 8th (No Slides) \
 Week 9 - Advent of Cyber - December 15th (No Slides)
 
-Week 16 - Hashing - January 19th 
+Week 16 - Hashing - January 19th  \ 
+Week 17 - Careers Talk - January 26th
