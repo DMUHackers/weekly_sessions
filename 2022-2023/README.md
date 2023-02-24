@@ -12,3 +12,6 @@ Week 9 - Advent of Cyber - December 15th (No Slides)
 Week 16 - Hashing - January 19th  \
 Week 17 - Careers Talk - January 26th \
 Week 18 - Physical Security - February 2nd
+Week 19 - OSINT - February 9th \
+Week 20 - SOC - February 16th \
+Week 21 - Malware - February 23rd
