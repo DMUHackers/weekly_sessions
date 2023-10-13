@@ -1,5 +1,5 @@
-Basic Web Exploitation, looking at: \
-- URL Variables \
-- Web Directory Fuzzing (using Gobuster) \
-- PHP Reverse Shells \
-- Bypassing File Upload Filters \
+Basic Web Exploitation, looking at: 
+- URL parameters 
+- PHP reverse shells 
+- Bypassing file upload filters 
+- Some basic Linux commands
