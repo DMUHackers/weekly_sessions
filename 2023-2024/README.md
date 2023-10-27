@@ -4,4 +4,4 @@
 | Week 1 | October 5th | Welcome to Hackers! |
 | Week 2 | October 12th | Basic Web Exploitation |
 | Week 3 | October 19th | Introduction to OSINT |
-| Week 3 | October 19th | Spooky Steganography (Halloween Session)|
+| Week 4 | October 26th | Spooky Steganography (Halloween Session)|
