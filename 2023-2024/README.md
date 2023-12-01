@@ -9,4 +9,5 @@
 | Week 6 | November 9th | Bellingcat: OSINT Investigations (previous recording) |
 | Week 7 | November 16th | \<No session\> |
 | Week 8 | November 23rd | OWASP Top 10 (virtual) |
+| Week 9 | November 30th | Hash Functions & Password Cracking|
 
