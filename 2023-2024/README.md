@@ -10,4 +10,13 @@
 | Week 7 | November 16th | \<No session\> |
 | Week 8 | November 23rd | OWASP Top 10 (virtual) |
 | Week 9 | November 30th | Hash Functions & Password Cracking|
+| Week 10 | December 7th | Advent of Cyber|
+| Week 11 | December 14th | \<No session - Xmas Meal\>|
+| Week 12 | December 21st | **Christmas Break** |
+| Week 13 | December 28th | **Christmas Break** |
+| Week 14 | January 4th | **Christmas Break** |
+| Week 15 | January 11th | **Christmas Break** |
+| Week 16 | January 18th | Social Engineering|
+| Week 17 | January 25th | Malware|
+| Week 18 | February 1st | Windows Infrastructure & Corporate Security|
 
