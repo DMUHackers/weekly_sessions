@@ -19,4 +19,6 @@
 | Week 16 | January 18th | Social Engineering|
 | Week 17 | January 25th | Malware|
 | Week 18 | February 1st | Windows Infrastructure & Corporate Security|
+| Week 19 | February 8th | MightyGlens SOC Guest Talk (no slides)|
+| Week 20 | February 15th | Advanced Persistent Threats|
 
